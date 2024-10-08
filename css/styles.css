@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  border-bottom: #000000 2px solid;
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+  justify-content: space-between;
+}
+nav .logo {
+  color: #000000;
+  width: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+nav .logo .icon {
+  height: 73px;
+  width: 73px;
+  background-color: red;
+}
+nav .logo span {
+  height: 21px;
+  width: 105px;
+}
+nav .search-bar {
+  width: 604px;
+  height: 44px;
+  background-color: #587c83;
+}
+nav .links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .links a {
+  text-decoration: none;
+  color: #000000;
+}
+nav .signInOut {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .signInOut a {
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+}
+nav .signInOut a .count {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+}

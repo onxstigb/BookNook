@@ -1,0 +1,65 @@
+nav {
+  height: 50px;
+  //   background-color: #000;
+  border-bottom: $site-black 2px solid;
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+  justify-content: space-between;
+
+  .logo {
+    color: $site-black;
+    width: 201px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+
+    .icon {
+      height: 73px;
+      width: 73px;
+      background-color: red;
+    }
+
+    span {
+      height: 21px;
+      width: 105px;
+    }
+  }
+  .search-bar {
+    width: 604px;
+    height: 44px;
+    background-color: $site-blue;
+  }
+
+  .links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+      text-decoration: none;
+      color: $site-black;
+    }
+  }
+
+  .signInOut {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      color: $site-black;
+      text-decoration: none;
+      position: relative;
+
+      .count {
+        position: absolute;
+        top: -10px;
+        right: -15px;
+      }
+    }
+  }
+}
