@@ -1,0 +1,49 @@
+.hero {
+  width: 1500px;
+  height: 530px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 158px;
+  background-color: red;
+}
+
+.featured-books {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 176px;
+  .book1 {
+    width: 306px;
+    height: 491px;
+    background-color: peru;
+  }
+  .book2 {
+    width: 306px;
+    height: 491px;
+    background-color: peru;
+  }
+
+  .book3 {
+    width: 306px;
+    height: 491px;
+    background-color: peru;
+  }
+}
+
+.featured-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+
+  .text-blurbs {
+    width: 413px;
+    height: 153px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
