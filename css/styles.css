@@ -77,6 +77,33 @@ nav .signInOut a .count {
   right: -15px;
 }
 
+footer {
+  background-color: #587c83;
+  width: 100%;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer p {
+  color: #ffffff;
+}
+footer .footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 38px;
+}
+footer .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .icons img {
+  height: 50px;
+  width: 50px;
+  margin-left: 38px;
+}
+
 .hero {
   width: 1500px;
   height: 530px;
