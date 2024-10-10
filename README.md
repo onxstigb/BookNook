@@ -12,6 +12,9 @@
 
 ### Francis:
 
+- Books Page (in progress)
+- Sign in Page (in progress)
+
 ---
 
 #### Web4 Link:
