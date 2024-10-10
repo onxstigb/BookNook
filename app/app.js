@@ -1,4 +1,4 @@
-import { changePage } from "../model/model.js";
+import { changePage, getBooks } from "../model/model.js";
 
 function initListeners() {}
 
@@ -15,6 +15,27 @@ function initSite() {
   route();
 }
 
+function loadBooks() {
+  let books = getBooks();
+  let homeBookCount = 3;
+
+  $.each(books, function (index, books) {
+    console.log(index);
+    if (index < homeBookCount) {
+      $(".books").append(
+        `<div class = "item-container">
+            <img src = "${books.image}"/>
+            <div class = "item-content">
+              <p class = "description">${books.description}</p>
+              <p class = "price">${books.price}</p>
+            </div>
+          </div>`
+      );
+    }
+  });
+}
+
 $(document).ready(function () {
+  loadBooks();
   initSite();
 });

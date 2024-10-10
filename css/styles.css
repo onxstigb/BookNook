@@ -150,3 +150,19 @@ footer .icons img {
 .featured-text .text-blurbs p {
   font-size: 16px;
 }
+
+#books {
+  min-height: 100vh;
+}
+#books .section h1 {
+  font-size: 26px;
+}
+#books .section .items-holder {
+  height: 306px;
+  background-color: blueviolet;
+}
+#books .section .items-holder .item-container {
+  height: 306px;
+  width: 521px;
+  background-color: chartreuse;
+}

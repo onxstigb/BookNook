@@ -1,0 +1,19 @@
+#books {
+  min-height: 100vh;
+  //   background-color: aquamarine;
+  .section {
+    h1 {
+      font-size: 26px;
+    }
+    .items-holder {
+      height: 306px;
+      background-color: blueviolet;
+
+      .item-container {
+        height: 306px;
+        width: 521px;
+        background-color: chartreuse;
+      }
+    }
+  }
+}

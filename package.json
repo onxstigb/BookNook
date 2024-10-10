@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.79.4",
     "sweetalert2": "^11.14.2"
+  },
+  "devDependencies": {
+    "sass": "^1.79.4"
   }
 }
