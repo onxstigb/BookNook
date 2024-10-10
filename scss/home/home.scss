@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 176px;
+  margin-bottom: 49px;
   .book1 {
     width: 306px;
     height: 491px;
@@ -45,5 +46,21 @@
     p {
       font-size: 16px;
     }
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 188px;
+  button {
+    border: 2px solid $site-black;
+    width: 222px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $site-white;
   }
 }
