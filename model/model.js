@@ -118,8 +118,4 @@ export function getBooks() {
 }
 
 // checking array
-function bookread() {
-  return books;
-}
-
-console.log(bookread());
+console.log(books);
