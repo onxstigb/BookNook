@@ -168,22 +168,74 @@ footer .icons img {
   background-color: #ffffff;
 }
 
-#books {
+.books {
   min-height: 100vh;
+  padding: 180px 50px;
+  display: flex;
+  flex-direction: column;
 }
-#books .section h1 {
+.books section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 250px;
+  width: 100%;
+  justify-content: center;
+}
+.books section h1 {
   font-size: 26px;
+  padding-bottom: 65px;
 }
-#books .section .items-holder {
-  height: 306px;
-  background-color: blueviolet;
+.books section #items-holder {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
-#books .section .items-holder .item-container {
+.books section #items-holder .item-container {
+  display: flex;
+  justify-content: space-between;
   height: 306px;
-  width: 521px;
-  background-color: chartreuse;
+  width: 550px;
+  margin: 0 7px 63.5px 7px;
+}
+.books section #items-holder .item-container img {
+  height: 85%;
+  margin-right: 20px;
+}
+.books section #items-holder .item-container .item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  height: 269px;
+  max-width: 280px;
+}
+.books section #items-holder .item-container .item-content p {
+  width: 280px;
+}
+.books section #items-holder .item-container .item-content button {
+  border: 1px solid #000000;
+  width: 222px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  cursor: pointer;
 }
 
+@media screen and (min-width: 1228px) {
+  .books #items-holder {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1227px) {
+  .books #items-holder {
+    justify-content: center;
+  }
+  .books #items-holder .item-container {
+    margin: 63.5px;
+  }
+}
 .account {
   min-height: 100vh;
   display: flex;
@@ -214,6 +266,7 @@ footer .icons img {
   color: white;
   background-color: #587c83;
   border: 0;
+  cursor: pointer;
 }
 .account h1 {
   font-size: 26px;

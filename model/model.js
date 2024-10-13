@@ -22,6 +22,15 @@ export function changePage(pageName) {
   }
 }
 
+// cart count
+var cartCount = 0;
+
+export function addItemToCart() {
+  $(".signInOut .count").html(++cartCount);
+}
+
+console.log(cartCount);
+
 // Books array
 var books = [
   {

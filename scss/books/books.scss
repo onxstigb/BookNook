@@ -1,18 +1,88 @@
-#books {
+.books {
   min-height: 100vh;
-  //   background-color: aquamarine;
-  .section {
+  padding: 180px 50px;
+  display: flex;
+  flex-direction: column;
+
+  section {
+    // height: 385px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 250px;
+    // background-color: darkgrey;
+    width: 100%;
+    justify-content: center;
+
     h1 {
       font-size: 26px;
+      padding-bottom: 65px;
     }
-    .items-holder {
-      height: 306px;
-      background-color: blueviolet;
+
+    #items-holder {
+      display: flex;
+      // justify-content: space-between;
+      // height: 306px;
+      width: 100%;
+      flex-wrap: wrap;
 
       .item-container {
+        display: flex;
+        justify-content: space-between;
         height: 306px;
-        width: 521px;
-        background-color: chartreuse;
+        width: 550px;
+        margin: 0 7px 63.5px 7px;
+        // margin-bottom: 63.5px;
+
+        img {
+          // width: 40%;
+          height: 85%;
+          margin-right: 20px;
+        }
+
+        .item-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-self: flex-end;
+          height: 269px;
+          max-width: 280px;
+
+          p {
+            width: 280px;
+            // font-size: 16px;
+          }
+
+          button {
+            border: 1px solid $site-black;
+            width: 222px;
+            height: 68px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: $site-white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1228px) {
+  .books {
+    #items-holder {
+      justify-content: space-between;
+    }
+  }
+}
+
+@media screen and (max-width: 1227px) {
+  .books {
+    #items-holder {
+      justify-content: center;
+
+      .item-container {
+        margin: 63.5px;
       }
     }
   }
