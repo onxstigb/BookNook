@@ -1,0 +1,163 @@
+.blog {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  .box1 {
+    margin: 0 auto;
+    margin-top: 117px;
+    background-color: $site-blue;
+    width: 1464px;
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .pic-box {
+      padding-left: 88px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .pic1 {
+        width: 250px;
+        height: 380px;
+        // background-color: $site-white;
+        background-image: url(../images/becoming.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 114px;
+      }
+      .pic2 {
+        width: 250px;
+        height: 380px;
+        // background-color: $site-white;
+        background-image: url(../images/finding-me.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+    .about-text {
+      color: $site-white;
+      h4 {
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      p {
+        width: 413px;
+        text-align: center;
+      }
+    }
+    button {
+      border: 2px solid $site-white;
+      width: 222px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: $site-blue;
+      color: white;
+      position: absolute;
+      bottom: 100px;
+      right: 230px;
+    }
+  }
+  .box2 {
+    margin: 0 auto;
+    margin-top: 117px;
+    background-color: $site-blue;
+    width: 1464px;
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .pic-box2 {
+      width: 622px;
+      height: 463px;
+      //   background-color: #fff;
+      background-image: url(../images/open-book-blog.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: -150px;
+    }
+    .about-text2 {
+      color: $site-white;
+      h4 {
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      p {
+        width: 413px;
+        text-align: center;
+      }
+    }
+    button {
+      border: 2px solid $site-white;
+      width: 222px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: $site-blue;
+      color: white;
+      position: absolute;
+      bottom: -500px;
+      right: 330px;
+    }
+  }
+  .box3 {
+    margin: 0 auto;
+    margin-top: 117px;
+    background-color: $site-blue;
+    width: 1464px;
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 140px;
+
+    .pic-box3 {
+      width: 622px;
+      height: 463px;
+      //   background-color: #fff;
+      background-image: url(../images/ereading.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: -150px;
+    }
+    .about-text2 {
+      color: $site-white;
+      h4 {
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      p {
+        width: 413px;
+        text-align: center;
+      }
+    }
+    button {
+      border: 2px solid $site-white;
+      width: 222px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: $site-blue;
+      color: white;
+      position: absolute;
+      bottom: -1050px;
+      right: 330px;
+    }
+  }
+}
