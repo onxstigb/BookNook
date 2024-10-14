@@ -13,7 +13,7 @@
 ### Francis:
 
 - Books Page (in progress)
-- Sign in Page (in progress)
+- Account Page (in progress)
 
 ---
 

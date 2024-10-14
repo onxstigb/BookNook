@@ -1,6 +1,13 @@
-import { changePage, getBooks } from "../model/model.js";
+import { changePage, getBooks, addItemToCart } from "../model/model.js";
 
-function initListeners() {}
+function initListeners() {
+  // $("button .addbtn").on("click", function (e) {
+  //   e.preventDefault();
+  //   var btnId = e.currentTarget.id;
+  //   console.log(btnId);
+  //   addItemToCart();
+  // });
+}
 
 function route() {
   let hashTag = window.location.hash;
@@ -17,7 +24,7 @@ function initSite() {
 
 // function loadBooks() {
 //   let books = getBooks();
-//   let homeBookCount = 12;
+//   let homeBookCount = 3;
 
 //   $.each(books, function (index, books) {
 //     // console.log(index);
@@ -38,5 +45,7 @@ function initSite() {
 
 $(document).ready(function () {
   // loadBooks();
+
   initSite();
+  initListeners();
 });
