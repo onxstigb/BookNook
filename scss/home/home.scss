@@ -1,12 +1,31 @@
 .hero {
-  width: 1500px;
+  width: 100%;
+  max-width: 1500px;
   height: 530px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 auto;
-  margin-top: 158px;
-  background-color: red;
+  margin: 158px auto 0;
+  background-image: url(../images/home-hero.jpg),
+    linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6));
+  background-color: rgba(88, 124, 131, 0.6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $site-white;
+  position: relative;
+  .hero-h4 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    right: 260px;
+  }
+  p {
+    position: absolute;
+    font-size: 16px;
+    right: 260px;
+    top: 300px;
+  }
 }
 
 .featured-books {
@@ -18,18 +37,30 @@
   .book1 {
     width: 306px;
     height: 491px;
-    background-color: peru;
+    // background-color: peru;
+    background-image: url(../images/to-kill-a-mockingbird.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .book2 {
     width: 306px;
     height: 491px;
-    background-color: peru;
+    // background-color: peru;
+    background-image: url(../images/becoming.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .book3 {
     width: 306px;
     height: 491px;
-    background-color: peru;
+    // background-color: peru;
+    background-image: url(../images/firestarter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 

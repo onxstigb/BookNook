@@ -6,7 +6,9 @@
 - Basic file structure
 - URL Change
 - Nav and Footer
-- Home Page (in progress)
+- Home Page (responsiveness)
+- About Page (responsiveness)
+- Blog Page (in progress)
 
 ---
 
