@@ -1,0 +1,71 @@
+.about {
+  margin: 0 auto;
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 170px;
+  }
+  .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 213px;
+
+    .photo-box1 {
+      width: 393px;
+      height: 587px;
+      // background-color: red;
+      background-position: center;
+      background-image: url(../images/about-photo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .founded {
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 26px;
+      position: absolute;
+      top: 340px;
+    }
+    .about-text {
+      width: 1134px;
+      margin-left: 40px;
+    }
+  }
+  .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 213px;
+
+    .photo-box2 {
+      width: 393px;
+      height: 587px;
+      // background-color: red;
+      background-position: center;
+      background-image: url(../images/about-photo-two.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .bookfinder {
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 26px;
+      position: absolute;
+      bottom: -550px;
+    }
+    .about-text {
+      width: 1134px;
+      margin-left: 40px;
+    }
+  }
+}
