@@ -1,11 +1,34 @@
-import { changePage, getBooks, addItemToCart } from "../model/model.js";
+import {
+  changePage,
+  getBooks,
+  addItemToCart,
+  signIn,
+  signOut,
+  userSignedIn,
+} from "../model/model.js";
 
 function initListeners() {
+  // $(".links a").on("click", function (e) {
+  //   e.preventDefault();
+  //   var url = $(this).attr("href").replace("#", "");
+  //   console.log(url);
+  // });
   // $("button .addbtn").on("click", function (e) {
   //   e.preventDefault();
   //   var btnId = e.currentTarget.id;
   //   console.log(btnId);
   //   addItemToCart();
+  // });
+  // $(".account a").on("click", function (e) {
+  //   e.preventDefault();
+  //   // var url = $(this).attr("href").replace("#", "");
+  //   if ((button = "login-btn")) {
+  //     console.log(signIn());
+  //   }
+  //   if (url == "signOut") {
+  //     console.log(signOut());
+  //   }
+  //   console.log(userSignedIn);
   // });
 }
 

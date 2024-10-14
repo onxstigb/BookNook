@@ -297,3 +297,31 @@ footer .icons img {
     font-size: 11px;
   }
 }
+.cart {
+  min-height: 100vh;
+}
+.cart .cartItem {
+  height: 550px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.cart .cartItem img {
+  height: 50%;
+  margin-right: 22px;
+  margin: 0 22px 0 135px;
+}
+.cart .cartItem .cartItemInfo .title,
+.cart .cartItem .cartItemInfo .price {
+  font-weight: bold;
+  font-size: 16px;
+}
+.cart .cartItem .cartItemInfo .quantity-change {
+  display: flex;
+  justify-content: space-between;
+  width: 166px;
+}
+.cart .cartItem .cartItemInfo .quantity-change .change,
+.cart .cartItem .cartItemInfo .quantity-change .delete {
+  text-decoration: underline;
+}

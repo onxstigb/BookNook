@@ -12,8 +12,9 @@
 
 ### Francis:
 
-- Books Page (in progress)
-- Account Page (in progress)
+- Books Page
+- Account Page
+- Cart Page
 
 ---
 

@@ -22,6 +22,19 @@ export function changePage(pageName) {
   }
 }
 
+//
+export var userSignedIn = false;
+
+export function signIn() {
+  userSignedIn = true;
+  return userSignedIn;
+}
+
+export function signOut() {
+  userSignedIn = false;
+  return userSignedIn;
+}
+
 // cart count
 var cartCount = 0;
 
