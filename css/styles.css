@@ -39,7 +39,10 @@ nav .logo {
 nav .logo .icon {
   height: 73px;
   width: 73px;
-  background-color: red;
+  background-image: url(../images/books-stack-of-three.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 nav .logo span {
   height: 21px;
@@ -49,6 +52,10 @@ nav .search-bar {
   width: 604px;
   height: 44px;
   background-color: #587c83;
+  opacity: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 nav .links {
   width: 50%;
@@ -112,7 +119,7 @@ footer .icons img {
   align-items: center;
   justify-content: space-evenly;
   margin: 158px auto 0;
-  background-image: url(../images/home-hero.jpg), linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6));
+  background-image: url(../images/home-hero.jpg);
   background-color: rgba(88, 124, 131, 0.6);
   background-position: center;
   background-repeat: no-repeat;
@@ -483,6 +490,23 @@ footer .icons img {
   position: absolute;
   bottom: -1050px;
   right: 330px;
+}
+
+.febfaves {
+  width: 100%;
+  margin: 0 auto;
+}
+.febfaves .feb-hero {
+  margin: 0 auto;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  height: 463px;
+  width: 1464px;
+  background-color: #587c83;
+  background-image: url(../images/february-favorites-hero.jpg), linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .account {

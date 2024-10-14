@@ -5,10 +5,10 @@
 - Created Repo
 - Basic file structure
 - URL Change
-- Nav and Footer
-- Home Page (responsiveness)
-- About Page (responsiveness)
-- Blog Page (in progress)
+- Nav (logos) and Footer
+- Home Page (responsiveness left)
+- About Page (responsiveness left)
+- Blog Page (1/4 + responsiveness)
 
 ---
 
