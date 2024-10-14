@@ -5,8 +5,10 @@
 - Created Repo
 - Basic file structure
 - URL Change
-- Nav and Footer
-- Home Page (in progress)
+- Nav (logos) and Footer
+- Home Page (responsiveness left)
+- About Page (responsiveness left)
+- Blog Page (1/4 + responsiveness)
 
 ---
 
@@ -19,3 +21,5 @@
 ---
 
 #### Web4 Link:
+
+https://in-info-web4.luddy.indianapolis.iu.edu/~obrookin/AdvWeb/BookNook/

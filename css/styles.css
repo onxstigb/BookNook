@@ -39,7 +39,10 @@ nav .logo {
 nav .logo .icon {
   height: 73px;
   width: 73px;
-  background-color: red;
+  background-image: url(../images/books-stack-of-three.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 nav .logo span {
   height: 21px;
@@ -49,6 +52,10 @@ nav .search-bar {
   width: 604px;
   height: 44px;
   background-color: #587c83;
+  opacity: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 nav .links {
   width: 50%;
@@ -105,14 +112,32 @@ footer .icons img {
 }
 
 .hero {
-  width: 1500px;
+  width: 100%;
+  max-width: 1500px;
   height: 530px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 auto;
-  margin-top: 158px;
-  background-color: red;
+  margin: 158px auto 0;
+  background-image: url(../images/home-hero.jpg);
+  background-color: rgba(88, 124, 131, 0.6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+}
+.hero .hero-h4 {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  right: 260px;
+}
+.hero p {
+  position: absolute;
+  font-size: 16px;
+  right: 260px;
+  top: 300px;
 }
 
 .featured-books {
@@ -125,17 +150,26 @@ footer .icons img {
 .featured-books .book1 {
   width: 306px;
   height: 491px;
-  background-color: peru;
+  background-image: url(../images/to-kill-a-mockingbird.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .featured-books .book2 {
   width: 306px;
   height: 491px;
-  background-color: peru;
+  background-image: url(../images/becoming.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .featured-books .book3 {
   width: 306px;
   height: 491px;
-  background-color: peru;
+  background-image: url(../images/firestarter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .featured-text {
@@ -166,6 +200,72 @@ footer .icons img {
   align-items: center;
   justify-content: space-evenly;
   background-color: #ffffff;
+}
+
+.about {
+  margin: 0 auto;
+}
+.about .title {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 170px;
+}
+.about .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 213px;
+}
+.about .box1 .photo-box1 {
+  width: 393px;
+  height: 587px;
+  background-position: center;
+  background-image: url(../images/about-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.about .box1 .founded {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 26px;
+  position: absolute;
+  top: 340px;
+}
+.about .box1 .about-text {
+  width: 1134px;
+  margin-left: 40px;
+}
+.about .box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 213px;
+}
+.about .box2 .photo-box2 {
+  width: 393px;
+  height: 587px;
+  background-position: center;
+  background-image: url(../images/about-photo-two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.about .box2 .bookfinder {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 26px;
+  position: absolute;
+  bottom: -550px;
+}
+.about .box2 .about-text {
+  width: 1134px;
+  margin-left: 40px;
 }
 
 .books {
@@ -236,6 +336,179 @@ footer .icons img {
     margin: 63.5px;
   }
 }
+.blog {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+.blog .box1 {
+  margin: 0 auto;
+  margin-top: 117px;
+  background-color: #587c83;
+  width: 1464px;
+  height: 463px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog .box1 .pic-box {
+  padding-left: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog .box1 .pic-box .pic1 {
+  width: 250px;
+  height: 380px;
+  background-image: url(../images/becoming.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 114px;
+}
+.blog .box1 .pic-box .pic2 {
+  width: 250px;
+  height: 380px;
+  background-image: url(../images/finding-me.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .box1 .about-text {
+  color: #ffffff;
+}
+.blog .box1 .about-text h4 {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog .box1 .about-text p {
+  width: 413px;
+  text-align: center;
+}
+.blog .box1 button {
+  border: 2px solid #ffffff;
+  width: 222px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #587c83;
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  right: 230px;
+}
+.blog .box2 {
+  margin: 0 auto;
+  margin-top: 117px;
+  background-color: #587c83;
+  width: 1464px;
+  height: 463px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog .box2 .pic-box2 {
+  width: 622px;
+  height: 463px;
+  background-image: url(../images/open-book-blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -150px;
+}
+.blog .box2 .about-text2 {
+  color: #ffffff;
+}
+.blog .box2 .about-text2 h4 {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog .box2 .about-text2 p {
+  width: 413px;
+  text-align: center;
+}
+.blog .box2 button {
+  border: 2px solid #ffffff;
+  width: 222px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #587c83;
+  color: white;
+  position: absolute;
+  bottom: -500px;
+  right: 330px;
+}
+.blog .box3 {
+  margin: 0 auto;
+  margin-top: 117px;
+  background-color: #587c83;
+  width: 1464px;
+  height: 463px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 140px;
+}
+.blog .box3 .pic-box3 {
+  width: 622px;
+  height: 463px;
+  background-image: url(../images/ereading.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -150px;
+}
+.blog .box3 .about-text2 {
+  color: #ffffff;
+}
+.blog .box3 .about-text2 h4 {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog .box3 .about-text2 p {
+  width: 413px;
+  text-align: center;
+}
+.blog .box3 button {
+  border: 2px solid #ffffff;
+  width: 222px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #587c83;
+  color: white;
+  position: absolute;
+  bottom: -1050px;
+  right: 330px;
+}
+
+.febfaves {
+  width: 100%;
+  margin: 0 auto;
+}
+.febfaves .feb-hero {
+  margin: 0 auto;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  height: 463px;
+  width: 1464px;
+  background-color: #587c83;
+  background-image: url(../images/february-favorites-hero.jpg), linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .account {
   min-height: 100vh;
   display: flex;

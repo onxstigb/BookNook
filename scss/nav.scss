@@ -18,7 +18,11 @@ nav {
     .icon {
       height: 73px;
       width: 73px;
-      background-color: red;
+      // background-color: red;
+      background-image: url(../images/books-stack-of-three.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     span {
@@ -30,6 +34,10 @@ nav {
     width: 604px;
     height: 44px;
     background-color: $site-blue;
+    opacity: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
   }
 
   .links {
